@@ -1,22 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 
-.container {
-    max-width: 1200px;
-    margin: 10px auto;
-}
-
-/* Header */
-
-header {
-    position: relative;
-    float: left;
-    width: 100%;
-}
 
 header img {
     width: 80px;
@@ -31,15 +13,6 @@ header img {
     float: left;
     margin-top: 20px;
     color: #313335;
-}
-
-/* Main */
-
-main {
-    position: relative;
-    float: left;
-    width: 700px;
-    margin-top: 20px;
 }
 
 .subtitle {
@@ -80,12 +53,7 @@ main {
 
 
 /* Widget categorías */
-.widget-container {
-    position: relative;
-    float: right;
-    margin: 20px auto;
-    width: 400px;
-}
+
 
 .box {
     margin: 10px auto;
@@ -124,14 +92,7 @@ main {
 
 /* Footer */
 
-footer {
-    position: relative;
-    float: left;
-    width: 100%;
-    margin: 20px 0;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-}
+
 
 footer img {
     width: 50px;

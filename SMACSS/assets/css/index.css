@@ -1,0 +1,8 @@
+@import 'base.css';
+@import 'layout.css';
+@import 'theme.css';
+
+
+/* Para mantener estilo mientras
+hacemos refactor */
+@import 'style.css';
