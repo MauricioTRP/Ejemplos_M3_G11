@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+header img {
+    width: 80px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.header-title {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    color: #313335;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    float: left;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.subtitle {
+    margin-left: 20px;
+    color: #313335;
+}
+
+.card {
+    position: relative;
+    float: left;
+    width: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 10px 20px;
+    color: #313335;
+}
+
+.card img {
+    width: 80px;
+    max-height: 80px;
+}
+.card h4 {
+    font-weight: bold;
+}
+
+.card p {
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.tags {
+    background-color: #729E2E;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Widget categorías */
+.widget-container {
+    position: relative;
+    float: right;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.box {
+    margin: 10px auto;
+    width: 90%;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.box-img {
+    height: 100%;
+    position: relative;
+    float: left;
+
+}
+
+.box-title {
+    font-size: 36px;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.html {
+    background-color: #E93E30;
+}
+
+.css {
+    background-color: #299ED5;
+}
+
+.js {
+    background-color: #F7E018;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+footer img {
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+footer h4 {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+
+footer p {
+    position: relative;
+    float: right;
+    margin-top: 15px;
+}
