@@ -1,0 +1,33 @@
+.post {
+  width: 18rem;
+  border-radius: 15px;
+  border: solid #111 2px;
+}
+.post__image {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.post .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+.post .user__image {
+  width: 2rem;
+  border-radius: 50%;
+}
+.post .tags {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.post .tags__tag {
+  text-transform: uppercase;
+}
+.post .tags__tag--blue {
+  color: rgb(101, 43, 226);
+}
+
+/*# sourceMappingURL=styles.css.map */

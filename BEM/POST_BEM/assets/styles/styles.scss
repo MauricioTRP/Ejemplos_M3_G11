@@ -1,0 +1,38 @@
+
+.post {
+    width: 18rem;
+    border-radius: 15px;
+    border: solid #111 2px;
+
+    &__image {
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .user {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.5rem;
+
+        &__image {
+            width: 2rem;
+            border-radius: 50%;
+        }
+    }
+
+    .tags {
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        &__tag {
+            text-transform: uppercase;
+
+            &--blue {
+                color: rgb(101, 43, 226);
+            }
+        }
+    }
+}

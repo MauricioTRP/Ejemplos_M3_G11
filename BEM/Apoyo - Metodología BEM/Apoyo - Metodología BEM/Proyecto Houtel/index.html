@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Houtel</title>
+</head>
+<body>
+    <!-- Cabecera del sitio -->
+<header class="header">
+    <div class="logo">
+        <img src="assets/img/logo.png" class="logo__image">
+    </div>
+</header>
+    <!-- Bloque principal -->
+<main class="main">
+    <div class="main__container">
+        <h1 class="main__title">Disfruta de los paisajes de
+        <span class="main__title--emphasis">
+            Chile
+        </span>
+        </h1>
+        <div class="main__button">
+            <button type="button" class="button button--positive">Más destinos</button>
+        </div>
+    </div>
+</main>
+    <!-- Formulario de búsqueda -->
+<form class="form">
+    <div class="form__container">
+        <label class="form__label">Lugar u hotel</label>
+        <input class="form__input-text" type="text" placeholder="Escribe tu destino">
+    </div>
+    <div class="form__container">
+        <label class="form__label">Fecha de llegada</label>
+        <input class="form__input-date" type="date" class="">
+    </div>
+    <div class="form__container">
+        <label class="form__label">Fecha de salida</label>
+        <input class="form__input-date" type="date" class="">
+    </div>
+    <div class="form__container">
+        <label class="form__label">Tipo de alojamiento</label>
+        <select class="form__select" name="">
+        <option value="1">Hotel</option>
+        <option value="2">Hostal</option>
+        <option value="3">Departamento</option>
+        </select>
+    </div>
+    <div class="form__container">
+        <label class="form__label">Tipo de habitación</label>
+        <select class="form__select" name="">
+        <option value="1">1 habitación</option>
+        <option value="2">2 habitaciones</option>
+        <option value="3">3 habitaciones</option>
+        <option value="4">+ de 4</option>
+        </select>
+    </div>
+    <button type="submit" class="button button--default">Buscar</button>
+</form>
+</body>
+</html>

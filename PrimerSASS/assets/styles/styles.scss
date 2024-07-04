@@ -1,0 +1,38 @@
+:root {
+    background-color: #f4f4f4;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+// Caja
+.navbar {
+    width: 100%;
+    background-color: #0f0;
+
+    &__navList { // navbar__navList
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        list-style-type: none;
+    }
+
+    &__navLink {
+        background-color: rgb(72, 146, 72);
+        padding: 0.5rem 0.4rem;
+        margin: 0.2rem;
+        border-radius: 5%;
+        
+        &--active {
+            background-color: rgb(134, 146, 72);
+        }
+    }
+
+}
+
