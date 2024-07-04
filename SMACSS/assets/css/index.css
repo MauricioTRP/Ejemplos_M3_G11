@@ -1,6 +1,10 @@
+/* "Centraliza" partes del CSS */
 @import 'base.css';
 @import 'layout.css';
 @import 'theme.css';
+
+/* Modulos */
+@import 'modules/main/card.css';
 
 
 /* Para mantener estilo mientras

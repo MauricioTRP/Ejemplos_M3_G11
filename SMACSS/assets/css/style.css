@@ -20,31 +20,6 @@ header img {
     color: #313335;
 }
 
-.card {
-    position: relative;
-    float: left;
-    width: 300px;
-    border-radius: 8px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
-    margin: 10px 20px;
-    color: #313335;
-}
-
-.card img {
-    width: 80px;
-    max-height: 80px;
-}
-.card h4 {
-    font-weight: bold;
-}
-
-.card p {
-    text-align: justify;
-    margin: 10px auto;
-}
-
 .tags {
     background-color: #729E2E;
     color: #fff;

@@ -1,0 +1,17 @@
+.card {
+    position: relative;
+    float: left;
+    width: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.card-img {
+    width: 80px;
+    max-height: 80px;
+}
+
+.card-text {
+    margin: 2rem 3rem;
+}

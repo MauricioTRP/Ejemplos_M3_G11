@@ -1,3 +1,35 @@
 .border-top {
     border-top: 1px solid #ccc;
 }
+
+.border {
+    border: 1px solid #ccc; /* piel */
+}
+
+.text-subtle {
+    color: #313335; /* color */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold; /* piel */
+}
+
+.text-justify {
+    text-align: justify; /* piel */
+}
+
+.text-right {
+    text-align: right;
+}
+
+.img-transparent {
+    opacity: 0.5;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
