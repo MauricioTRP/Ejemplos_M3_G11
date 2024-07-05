@@ -2,7 +2,9 @@
 @charset 'UTF-8';
 
 // Importaciones Abstracts
-@import 'abstracts/variables';
+@import 
+  'abstracts/variables',
+  'abstracts/mixins';
 
 // Vendors
 

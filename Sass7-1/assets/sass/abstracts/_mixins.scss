@@ -1,0 +1,45 @@
+@mixin texto-rojo-importante {
+  font-size: 4rem;
+  background-color: $pikachu;
+  font-weight: 700;
+  color: $danger;
+}
+
+@mixin reset-list {
+  list-style: none;
+}
+
+// .lista-horizontal {
+//   @include horizontal-list;
+// }
+@mixin horizontal-list {
+  @include reset-list;
+
+  li {
+    display: inline-block;
+    margin: {
+      left: -2px;
+      right: 2em;
+    };
+  }
+}
+
+@mixin caja ($box-height, $box-width, $color) {
+  display: inline-block;
+  height: $box-height;
+  width: $box-width;
+  background-color: $color;
+}
+
+@mixin button-style($bg-color, $text-color) { 
+  background-color: $bg-color; 
+  color: $text-color; 
+  border: none; 
+  padding: 10px 20px; 
+  text-transform: uppercase; 
+  cursor: pointer;
+  
+  &:hover { 
+    opacity: 0.8; 
+  } 
+}
