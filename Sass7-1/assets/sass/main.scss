@@ -1,0 +1,11 @@
+// Grupo de caracteres permitido
+@charset 'UTF-8';
+
+// Importaciones Abstracts
+@import 'abstracts/variables';
+
+// Importaciones Base
+@import
+  'base/reset',
+  'base/typography';
+
