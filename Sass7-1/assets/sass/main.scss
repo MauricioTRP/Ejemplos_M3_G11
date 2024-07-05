@@ -13,12 +13,17 @@
 
 // Importaciones Layout
 @import
-  'layout/header';
+  'layout/header',
+  'layout/form';
 
 // Importaciones Components
 @import
-  'components/logo';
+  'components/logo',
+  'components/input',
+  'components/button';
 
+@import
+  'themes/main';
 
 // Shame on you!!
 @import 'shame/shame';
