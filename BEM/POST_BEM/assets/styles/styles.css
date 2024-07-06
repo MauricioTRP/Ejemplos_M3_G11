@@ -7,6 +7,8 @@
   width: 100%;
   object-fit: cover;
   overflow: hidden;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
 }
 .post .user {
   display: flex;
