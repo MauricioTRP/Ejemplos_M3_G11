@@ -3,5 +3,9 @@ button {
   border-radius: 5px;
   padding: 0.4rem 0.5rem;
   margin: 0.3rem 0;
-  width: 100%;
+
+  &.btn-wide {
+    width: 100%;
+  }
 }
+
