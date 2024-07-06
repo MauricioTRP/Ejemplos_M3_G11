@@ -1,0 +1,24 @@
+.btn {
+    /* Estrutura */
+    width: 100px;
+    height: 30px;
+    padding: 10px; 
+    border: 1px solid #000;
+    border-radius: 7%;
+}
+
+.btn-large {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 7%;
+}
+
+.aceptar {
+    background-color: rgb(77, 209, 62);
+}
+
+.cancelar {
+    background-color: rgb(209, 62, 62);
+}
