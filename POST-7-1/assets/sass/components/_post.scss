@@ -1,0 +1,61 @@
+// BEM Post Vertical
+.v-post {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  @media (min-width: 700px) {
+    width: 60%;
+  }
+
+  &__date {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+  
+  &__img {
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    object-fit: cover; // No deforma la imagen
+  }
+}
+
+// Clase Modificadora
+.v-post--small {
+  width: 18rem;
+
+  // afecta el tamaño de la imagen si está
+  // dentro de un post pequeño
+  .v-post__img {
+    height: 8rem;
+  }
+}
+
+// BEM Post Horizontal
+.h-post {
+  display: flex;
+  flex-direction: row;
+  height: $horizontal-post-height;
+  
+  &:not(:first-of-type) {
+    padding-top: 1rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  &__img {
+    height: 100%;
+    border-radius: 8px;
+    margin-right: 1rem;
+    width: calc($horizontal-post-height + 0.5rem);
+    object-fit: cover;
+  }
+
+  &__date {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}

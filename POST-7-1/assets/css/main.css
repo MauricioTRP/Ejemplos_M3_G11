@@ -7,8 +7,38 @@
 
 html, body {
   font-family: "Poppins", sans-serif;
-  color: #000000;
   font-weight: 500;
+}
+
+.h-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 60%;
+  padding-top: 1rem;
+}
+
+.aside-container {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 700px) {
+  .aside-container {
+    width: 38%;
+  }
+}
+
+.section {
+  padding: 2rem 5rem;
 }
 
 .logo {
@@ -30,28 +60,6 @@ html, body {
 
 .logo--small {
   height: 3.5rem;
-}
-
-.section {
-  border-top: solid 2px #292C33;
-  border-bottom: solid 2px #292C33;
-  padding: 2rem 5rem;
-}
-
-.h-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.posts-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  width: 60%;
-  padding-top: 1rem;
 }
 
 .v-post {
@@ -82,15 +90,29 @@ html, body {
   height: 8rem;
 }
 
-.aside-container {
-  margin-left: 2rem;
+.h-post {
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+}
+.h-post:not(:first-of-type) {
+  padding-top: 1rem;
+}
+.h-post__content {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 700px) {
-  .aside-container {
-    width: 38%;
-  }
+.h-post__img {
+  height: 100%;
+  border-radius: 8px;
+  margin-right: 1rem;
+  width: 8.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.h-post__date {
+  font-weight: 400;
+  font-size: 0.8rem;
 }
 
 .categoria {
@@ -136,31 +158,6 @@ html, body {
   background-color: #563D7C;
 }
 
-.h-post {
-  display: flex;
-  flex-direction: row;
-  height: 8rem;
-}
-.h-post:not(:first-of-type) {
-  padding-top: 1rem;
-}
-.h-post__content {
-  display: flex;
-  flex-direction: column;
-}
-.h-post__img {
-  height: 100%;
-  border-radius: 8px;
-  margin-right: 1rem;
-  width: 8.5rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.h-post__date {
-  font-weight: 400;
-  font-size: 0.8rem;
-}
-
 .user {
   display: flex;
   margin-top: 0.8rem;
@@ -180,4 +177,13 @@ html, body {
 
 .user--small {
   height: 2rem;
+}
+
+html, body {
+  color: #000000;
+}
+
+.section {
+  border-top: solid 2px #292C33;
+  border-bottom: solid 2px #292C33;
 }/*# sourceMappingURL=main.css.map */

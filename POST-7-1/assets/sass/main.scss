@@ -13,14 +13,21 @@
   'base/typography';
 
 // 4.- layout
+@import
+  'layout/container';
 
 // 5.- components
 @import
-  'components/logo';
+  'components/logo',
+  'components/post',
+  'components/categoria',
+  'components/user';
 
 // 6.- pages
 
 // 7.- themes
+@import
+  'theme/theme';
 
 // 8.- shame
 @import 'shame/shame';
