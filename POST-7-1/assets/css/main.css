@@ -10,6 +10,10 @@ html, body {
   font-weight: 500;
 }
 
+.header {
+  padding: 2rem 5rem;
+}
+
 .h-container {
   width: 100%;
   display: flex;
@@ -41,11 +45,14 @@ html, body {
   padding: 2rem 5rem;
 }
 
+.footer {
+  padding: 2rem 5rem;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 1rem 3rem;
   height: 5rem;
 }
 .logo__img {

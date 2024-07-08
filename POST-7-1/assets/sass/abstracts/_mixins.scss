@@ -1,0 +1,5 @@
+// Espaciado Horizontal de contenedores mayores (100%)
+
+@mixin padding-4-sides ($space-v, $space-h) {
+  padding: $space-v $space-h;
+}

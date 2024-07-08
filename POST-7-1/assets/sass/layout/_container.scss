@@ -27,5 +27,5 @@
 
 // section container estructura
 .section {
-  padding: 2rem 5rem;
+  @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width);
 }
