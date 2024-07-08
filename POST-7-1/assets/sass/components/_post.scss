@@ -13,7 +13,7 @@
   }
   
   &__img {
-    border-radius: 8px;
+    border-radius: $border-rounded;
     margin-bottom: 1.5rem;
     object-fit: cover; // No deforma la imagen
   }
@@ -48,7 +48,7 @@
 
   &__img {
     height: 100%;
-    border-radius: 8px;
+    border-radius: $border-rounded;
     margin-right: 1rem;
     width: calc($horizontal-post-height + 0.5rem);
     object-fit: cover;
@@ -57,5 +57,24 @@
   &__date {
     font-weight: 400;
     font-size: 0.8rem;
+  }
+}
+
+.post-full-screen {
+  width: 100%;
+  margin-top: 1.5rem;
+  background-color: $background-post;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  border-radius: $border-rounded;
+  @include padding-4-sides(1.5rem, 1.5rem);
+  
+  &__img { // post-full-screen__img
+    display: inline-block;
+    justify-self: center;
+    border-radius: $border-rounded;
+    margin-inline: auto;
+    width: 80%;
   }
 }

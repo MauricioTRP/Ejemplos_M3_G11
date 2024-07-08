@@ -14,7 +14,13 @@
   }
 
   &__text {
+    font-weight: 500;
+  }
+
+  &__date {
     font-weight: 400;
+    font-size: small;
+    margin-left: 2rem;
   }
 }
 
