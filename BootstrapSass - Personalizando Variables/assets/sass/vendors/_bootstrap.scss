@@ -1,0 +1,34 @@
+// Required
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$blue:    #173289;
+$indigo:  #6115db;
+$purple:  #6542a7;
+$pink:    #c01698;
+$red:     #f1192e;
+$orange:  #f1890b;
+$yellow:  #f3d82b;
+$green:   #0dd338;
+$teal:    #2bd893;
+$cyan:    #0dcaf0;
+
+// Required
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/variables-dark";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";
+
+@import 
+'../../../node_modules/bootstrap/scss/grid',
+'../../../node_modules/bootstrap/scss/images',
+  '../../../node_modules/bootstrap/scss/card',
+  '../../../node_modules/bootstrap/scss/utilities',
+  '../../../node_modules/bootstrap/scss/buttons',
+  '../../../node_modules/bootstrap/scss/containers';
+// etc
