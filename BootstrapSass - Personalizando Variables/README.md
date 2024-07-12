@@ -24,30 +24,46 @@ En este caso, lo mejor es ajustarse a una importación por partes. Donde en la c
 En nuestro caso el archivo `vendors/_bootstrap.scss`
 
 ```sass
-// Required
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../../../node_modules/bootstrap/scss/functions";
 
-// Default variable overrides
+// 2. Include any default variable overrides here
+$green: rgb(29, 240, 29);
+$red: rgb(255, 94, 0);
+$yellow: rgb(230, 230, 15);
 
-// Required
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
 @import "../../../node_modules/bootstrap/scss/maps";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/root";
 
-// Optional Bootstrap components here
+// 6. Optionally include any other parts as needed
+@import "../../../node_modules/bootstrap/scss/utilities";
 @import "../../../node_modules/bootstrap/scss/reboot";
 @import "../../../node_modules/bootstrap/scss/type";
+@import "../../../node_modules/bootstrap/scss/images";
+@import "../../../node_modules/bootstrap/scss/containers";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/helpers";
+@import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/button-group";
+@import "../../../node_modules/bootstrap/scss/tables";
 
-@import 
-'../../../node_modules/bootstrap/scss/grid',
-'../../../node_modules/bootstrap/scss/images',
-  '../../../node_modules/bootstrap/scss/card',
-  '../../../node_modules/bootstrap/scss/utilities',
-  '../../../node_modules/bootstrap/scss/buttons',
-  '../../../node_modules/bootstrap/scss/containers';
-// etc
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../../../node_modules/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
 ```
 
 Para más información, revisar la documentación oficial:
